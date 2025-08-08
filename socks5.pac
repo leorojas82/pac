@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
   // Check for internal hostnames first
-  if (shExpMatch(host, "*.hpc.swc.ucl.ac.uk")) {
+  if (shExpMatch(host, "*.swc.ucl.ac.uk")) {
     return "SOCKS 127.0.0.1:18890";
   }
 
